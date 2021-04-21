@@ -30,9 +30,11 @@ class _HomeState extends State<Home> {
                 });
               },
               decoration: InputDecoration(
-                labelText: "Pesquisar",
-                labelStyle: TextStyle(color: Colors.black),
-              ),
+                  labelText: "Pesquisar",
+                  labelStyle: TextStyle(color: Colors.black),
+                  border: OutlineInputBorder()),
+              style: TextStyle(color: Colors.black, fontSize: 20),
+              textAlign: TextAlign.center,
             ),
           ),
         ],
